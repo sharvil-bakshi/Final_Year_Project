@@ -41,6 +41,6 @@ def mark_and_save_image(image_path, output_path):
     else:
         print("No fall detected.")
 
-input_image_path = 'fall.jpg'
+input_image_path = 'not fallen090.jpg'
 output_image_path = 'output_image_marked.jpg'
 mark_and_save_image(input_image_path, output_image_path)
